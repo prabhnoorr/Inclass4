@@ -1,0 +1,141 @@
+/* my name is prabhnoor kaur 
+ my student no. is 8980918 */
+
+html{
+  height: 100%;
+}
+
+header{
+  background: linear-gradient(to right, #ef5959, #6060ea);
+  padding: 1px;
+  text-align: center;
+}
+nav li {
+  display: inline;
+}
+
+nav a {
+  border: 2px solid indigo;
+  width: 100px;
+  border-radius: 5px;
+  color: indigo;
+  background-color: cornsilk;
+  text-decoration: none;
+  padding: 5px 10px;
+  
+}
+
+nav a:hover {
+  color: cornsilk;
+  background-color: indigo;
+}
+body {
+  background-color:hsl(0, 100%, 97%); 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  min-height: 100%; 
+  width: 1200px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+aside { width: 250px;
+  float: right;
+  background-color: hsl(45, 89%, 66%);
+}
+aside ul li{
+  line-height: 2;
+  color: rgba(229, 11, 11, 0.9);
+  list-style: square;
+}
+h1{
+  font-style: normal;
+  color:rgb(0, 0, 0); 
+  font-size: 35px;
+}
+main{
+  float: left;
+  width: 800px;
+  background-color: hsl(169, 88%, 69%);
+}
+  
+
+
+  
+h2 {
+  color:#120060;
+  font: 30px;
+    
+}
+
+.structural header,main,aside,footer {
+  border: 2px solid black;
+  padding: 8px;
+  margin: 8px;
+    
+    
+}
+#p1{
+  color: rgb(143, 23, 2);
+}
+#p2{
+  color: rgb(84, 49, 2);
+}
+footer{
+  background: linear-gradient(to right, #ef5959, #6060ea);
+  clear: both;
+  text-align: center;    
+  background-color: #f7e7d9; 
+  padding: 10px 0; 
+  font-size: 10px;
+  margin-top: auto;
+    
+
+}
+a:hover{
+ color: #1db1c5;
+}
+form {
+  border: 5px dashed #FF5733;
+  padding: 5px;
+}
+
+main, aside {
+  height: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],select,option {
+  width: 50%;
+  display: block;
+  height: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  height: 2em;
+  width: 2em;
+}
+
+select, option, label, legend, input[type="submit"] {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+textarea {
+  width: 50%;
+  display: block;
+}
+
+fieldset {
+  border: none;
+}
+
+  
+  
+  
+  
+  
+  
